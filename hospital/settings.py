@@ -139,4 +139,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
      os.path.join(BASE_DIR, "static"),
     '/home/abhishek/hospital/static',
+    ('assets', '/Users/puevigreven/softwareLab/virtual_env/hospital/static/css'),
+    ('assets', '/Users/puevigreven/softwareLab/virtual_env/hospital/static/js'),
+
     ]    
